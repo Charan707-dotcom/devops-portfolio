@@ -1,0 +1,29 @@
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+application.properties
+
+# Java / Maven
+target/
+*.class
+
+# Node
+node_modules/
+dist/
+build/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+terraform.tfvars
+crash.log
+
+# IDE
+.idea/
+.vscode/
